@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #009990;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.header .h1{
+    text-align: center;
+    margin-left: 20px;
+}
+.header .logo{
+    width: 100px;
+    height:auto;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 60px;
+}
+.login-container h2{
+ margin-bottom: 50px;
+ padding-bottom:  20px;
+ color: #333;
+}
+.login-form{
+    display: flex;
+}
+.login-form label{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.login-form input{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-form button{
+    padding: 10px;
+    background-color: #009990;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    align-content: center;
+    margin-left: 70px;
+}
+.login-form button:hover{
+    background-color: #007f7f;
+
+}
+.footer-text{
+ margin-top: 20px;
+ font-size: 0.9rem;
+ color: #555;
+
+}
+.footer-text a{
+    color: #009990;
+    text-decoration: none;
+}
+.footer-text a:hover{
+    text-decoration: underline;
+}
+
+#password{
+    margin-left: 20px;
+}
+#username{
+    margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+.face{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.contains{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
